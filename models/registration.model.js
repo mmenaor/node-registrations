@@ -9,11 +9,11 @@ const Registration = db.define('registration', {
         allowNull: false
     },
     entranceTime: {
-        type: DataTypes.STRING,
+        type: DataTypes.DATE,
         allowNull: false
     },
     exitTime: {
-        type: DataTypes.STRING,
+        type: DataTypes.DATE,
     },
     status: {
         type: DataTypes.STRING,
